@@ -1,0 +1,14 @@
+"./empty.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./Hardware/74HC595.o"
+"./Hardware/Encoder.o"
+"./Hardware/Key.o"
+"./Hardware/PID.o"
+"./Hardware/motor.o"
+"./OLED/OLED.o"
+"./OLED/OLED_Data.o"
+"./User/Delay.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
