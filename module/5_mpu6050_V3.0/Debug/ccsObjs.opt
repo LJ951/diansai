@@ -1,0 +1,12 @@
+"./empty.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./Hardware/MPU6050.o"
+"./Hardware/bsp_iic.o"
+"./Hardware/bsp_printf.o"
+"./Hardware/bsp_systick.o"
+"./Hardware/inv_mpu.o"
+"./Hardware/inv_mpu_dmp_motion_driver.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
